@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 34px;
+    padding: 0;
+    background: url(background.png);
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 160px;
+}
+
+.grid-container {
+    display: grid;
+    margin: 200px 102px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.language-item {
+   
+        background-color: #dcf3ff;
+        border: 7px solid #8804b1;
+        padding: 31px 158px;
+        border-radius: 36px;
+        box-shadow: 0px -1px 7px 8px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+        text-align: center;
+        margin: auto;
+    
+}
+
+.language-item:hover {
+    transform: translateY(-10px);
+}
+
+.language-item h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #8804b1;
+}
+
+.language-item p {
+    display: -webkit-box;
+    margin-bottom: 0;
+    color: #666;
+}
+.container .box{
+    height: 73px;
+    margin: -191px -8px;
+    position: fixed;
+    z-index: 999;
+    width: 99%;
+    padding: 0 20px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+ 
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+}
+
+.container .box nav{
+    height: 7%;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+}
+.container .box nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+}
+.container .box nav ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #242329;
+    transition: 0.3s
+}
+.container .box nav ul li a:hover{
+    color: #7c8bd1;
+}
+.container .box nav .logo{
+    font-size: 35px;
+    color: #242329;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+}

@@ -1,0 +1,156 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(background.png);
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: auton;
+    margin: 0 auto;
+}
+
+header {
+    font-weight: bold;
+    color: #fff;
+    padding: 93px 0px 6px 24px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    font-size: xx-large;
+    text-align: center;
+    background: #c29ee3;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 100px;
+    box-shadow: inset -7px -5px 7px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.icon {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #c1dafb;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: x-large;
+}
+
+footer p {
+    margin: 0;
+}
+
+.typewriter {
+    white-space: normal;
+    overflow: hidden;
+    border-right: 0.15em solid #333;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+
+.container .box{
+    height: 73px;
+    position: fixed;
+    z-index: 999;
+ 
+    width: 99%;
+    padding: 0 20px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+}
+
+.container .box nav{
+    height: 7%;
+    position: fixed;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+}
+.container .box nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    
+    list-style: none;
+}
+.container .box nav ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #242329;
+    transition: 0.3s
+}
+.container .box nav ul li a:hover{
+    color: #7c8bd1;
+}
+.container .box nav .logo{
+    font-size: 35px;
+    color: #242329;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #333 }
+}

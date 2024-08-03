@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Fayez </title>
+ 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+    
+</head>
+
+<body>
+   
+    <div class="container">
+
+        <div class="box">
+            <nav>
+                 <a href="#" class="logo">Eng\Ahmed Fayez </a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ser.html">Skills</a></li>
+                    <li><a href="skills.html">Services</a></li>
+                    <li><a href="tel:+967780138083">Contact</a></li>
+                </ul>
+                   
+            </nav>
+            <div class="contains">
+
+                <div class="section-1">
+                    <h1 id="welcome-message"></h1>
+                    <h3> Iam working on Application and website Developer</h3>
+                    <p class="sub-message">High level experience in web design mobile Application and
+                        development knowledge,producing quality work.</p>
+                    <a class="btn" id="btn" href="tel:+967780138083">Contact Me</a>
+
+                </div>
+
+
+                <div class="section-2">
+                    <img src="user.png" alt="">
+                </div>
+
+                <div class="section-3">
+                    <a href="facebook.com/احمد فايز  علي مشرح"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="whatsapp/+0967780138083"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="instagram.com/mshrh4440"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+       
+
+    
+</div>
+
+<script>
+    const message = "Hi, I'am Ahmed";
+    let index = 0;
+    const speed = 300; // سرعة الكتابة بالحروف
+
+    function typeWriter() {
+        if (index < message.length) {
+            document.getElementById("welcome-message").innerHTML += message.charAt(index);
+            index++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+
+   
+
+    window.onload = function() {
+        typeWriter();
+    };
+</script>
+
+</body>
+</html>
