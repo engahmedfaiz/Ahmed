@@ -17,7 +17,7 @@
 .container .box{
     
     
-    padding: 0 20px;
+    
     background: rgba(255, 255, 255, 0.1);
     z-index: 10;
     display: flex;
@@ -27,15 +27,7 @@
     backdrop-filter: blur(25px);
     box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
 }
-container::after{
-    content: '';
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background: linear-gradient( #c1d9fb,#cbd1f8);
-    transform: translate(490px,150px);
-}
+
 .container .box nav{
     height: 7%;
     width: 95%;
