@@ -27,7 +27,7 @@
     backdrop-filter: blur(25px);
     box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
 }
-.container::after{
+container::after{
     content: '';
     position: absolute;
     height: 300px;
