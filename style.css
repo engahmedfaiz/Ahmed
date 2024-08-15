@@ -17,7 +17,7 @@
 .container .box{
     height: 86vh;
     width: 100%;
-    padding: 0 20px;
+    padding: 100%;
     background: rgba(255, 255, 255, 0.1);
     z-index: 10;
     display: flex;
